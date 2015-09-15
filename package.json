@@ -1,0 +1,25 @@
+{
+  "name": "huey17",
+  "version": "0.0.1",
+  "description": "This file is called package.json, which defines the dependencies that should be installed with the application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x"
+  },
+  "engines": {
+    "node": "0.12.2"
+  },
+  "repository": {
+     "type": "git",
+     "url": "https://github.com/huey17/the-simplest"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}

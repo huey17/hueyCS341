@@ -1,0 +1,6 @@
+{
+  "name": "huey17"
+  "description": "declares environment variables, add-ons, and other information required to run an app on Heroku",
+  "repository": "https://github.com/huey17/the-simplest",
+  "keywords": ["node", "express", "static"]
+}
