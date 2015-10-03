@@ -5,6 +5,19 @@
  *
  */
 
+// fetch helps get specific inputs displayed by year 
+var fetch = function() {
+	var yearFetcher = document.getElementById('year');
+	var value = yearFetcher.value;
+	console.log(value);
+	
+	//note to self. it is viz, not vis (this is what caused me so many delays)
+	vizController(value);
+};
+
+
+
+
 var counter = 1;
 
 var toggle = function() {
@@ -37,7 +50,16 @@ var initialize = function() {
 	// From this point forward, when the button is clicked, the
 	// toggle function shall be invoked.
 	button.onclick = toggle;
+	
+	// Grab the 'Submit' button element, identified by the
+	// 'submit-btn' id.
+	submitButton = document.getElementById('submit-btn');
+
+	// From this point forward, when the button is clicked, the
+	// fetch function shall be invoked.
+	submitButton.onclick = fetch;
 };
+
 
 // When this file is included at the bottom of the page,
 // the js is loaded after the DOM is loaded.  It is a
